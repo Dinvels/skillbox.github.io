@@ -1,5 +1,5 @@
 * {
-	
+
 	box-sizing: border-box;
 
 }
@@ -13,6 +13,7 @@ body {
 	display: flex;
 	font-family: Tahoma;
 	flex-direction: column;
+	box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -130,6 +131,7 @@ h3 {
 	border: none;
 
 }
+
 .but_know:hover {
 	color: white;
 	background: #000000;
@@ -178,9 +180,10 @@ h2 {
 	text-align: center;
 	line-height: 24px;
     margin-left: 20px;
-
 }
+
 .but_price {
+	margin-top: 100px;
 	height: 60px;
 	width: 270px;
 	font-size: 18px;
@@ -189,10 +192,15 @@ h2 {
 	color: white;
 	cursor: pointer;
 	border: none;
+	flex: auto;
+	justify-content: center;
+	justify-items: center;
+	
 
 }
+
 .but_price:hover {
 	color: white;
 	background: #000000;
 	border: 1px solid transparent;
-} 
+}
